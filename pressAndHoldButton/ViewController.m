@@ -36,7 +36,7 @@
 
 - (void) down:(id) sender
 {
-    self.timerDown = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(print:) userInfo:Nil repeats:YES];
+    self.timerDown = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(print:) userInfo:nil repeats:YES];
 }
 
 - (void) up:(id) sender
